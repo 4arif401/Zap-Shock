@@ -41,7 +41,7 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     public void openUrlInBrowser(View view) {
-        String url = "http://www.youtube.com"; //URL
+        String url = "https://github.com/4arif401/Zap-Shock"; //URL
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(intent);
     }
